@@ -2,6 +2,19 @@
 
 Entity–Relationship diagram for the **Schedula** doctor-appointment booking system.
 The diagram below is written in Mermaid, so it renders automatically on GitHub and in the Pull Request.
+A rendered image is also available at [`docs/ERDiagram.png`](docs/ERDiagram.png).
+
+## Rendered image
+
+![Schedula ER Diagram](docs/ERDiagram.png)
+
+### How to read this diagram
+
+- Each box is a **table**; its rows are `type` · `column` · `key`.
+- **PK** = primary key, **FK** = foreign key, **UK** = unique key.
+- Line labels state the relationship in plain words, e.g. `1-to-1 · has doctor profile`, `1-to-many · books`.
+- **1-to-1**: a row on each side links to at most one row on the other (e.g. a User has one Doctor profile).
+- **1-to-many**: one row links to many rows on the other side (e.g. one Doctor creates many Slots).
 
 ## Diagram
 
