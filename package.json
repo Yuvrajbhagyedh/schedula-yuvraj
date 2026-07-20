@@ -1,7 +1,7 @@
 {
-  "name": "dms-temp",
+  "name": "schedula",
   "version": "0.0.1",
-  "description": "",
+  "description": "Schedula - doctor appointment booking backend (NestJS)",
   "author": "",
   "private": true,
   "license": "UNLICENSED",
